@@ -1,3 +1,64 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Hind+Guntur:wght@300&family=Noto+Sans:wght@300&display=swap');
+
+body {
+  background-image: url('../public/galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  color: white
+}
+
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.planets {
+  display: flex;
+}
+
+.Mercúrio {
+  width: calc(98vw / 8);
+}
+
+.Vênus {
+  width: calc(98vw / 8);
+
+}
+
+.Terra {
+  width: calc(98vw / 8);
+
+}
+
+.Marte {
+  width: calc(98vw / 8);
+
+}
+
+.Júpiter {
+  width: calc(98vw / 8);
+
+}
+
+.Saturno {
+  width: calc(98vw / 8);
+
+}
+
+.Urano {
+  width: calc(98vw / 8);
+
+}
+
+.Netuno {
+  width: calc(98vw / 8);
+
 }
