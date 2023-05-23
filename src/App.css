@@ -3,17 +3,21 @@
 body {
   background-image: url('../public/galaxy.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: center;
+  background-size: 100%;
+  background-position: center;
   color: white
 }
 
 h1 {
   font-family: 'Alegreya Sans', sans-serif;
+  font-size: 250%;
+  margin: 25px;
 }
 
 h2, h3, h4, h5 {
   font-family: 'Hind Guntur', sans-serif;
+  font-size: 175%;
+  text-align: center;
 }
 
 p {
@@ -22,6 +26,10 @@ p {
 
 .planets {
   display: flex;
+}
+
+.planet-card {
+  text-align: center;
 }
 
 .Mercúrio {
@@ -61,4 +69,18 @@ p {
 .Netuno {
   width: calc(98vw / 8);
 
+}
+
+.missions {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px;
+  justify-content: space-around;
+}
+
+.mission-card {
+  background-color: rgba(25, 25, 32, 0.90);
+  padding: 0px 25px;
+  margin: 15px;
+  border-radius: 10%;
+  text-align: center;
 }
